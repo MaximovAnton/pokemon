@@ -1,0 +1,209 @@
+.catalog{
+  &__product{
+    width: 100%;
+  }
+  &__item{
+      height: 240px;
+      border: 1px solid rgb(3, 34, 59);
+  }
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    max-width: 345px;
+    height: 100%;
+    &__img {
+      display: block;
+      margin: 0 auto 15px;
+      width: 340px;
+      height: 207px;
+    }
+    &__imgCard{
+        width: 100px;
+        height: 200px;
+    }
+    &__title {
+      margin: 0 0 10px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      font-size: 22px;
+    }
+    &__description {
+      margin: 0;
+      color: #9f9f9f;
+    }
+    &__content {
+      margin-bottom: 25px;
+      flex-grow: 1;
+    }
+    &__sizes {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+      border-radius: 21px;
+      overflow: hidden;
+      box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.05);
+    }
+    &__size {
+      border: 0;
+      background-color: transparent;
+      cursor: pointer;
+      display: inline-block;
+      text-align: center;
+      color: #e6e6e6;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      padding: 13px 33px;
+      border-radius: 21px;
+    }
+    &__size.active {
+      color: #a2a2a2;
+      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
+    }
+    &__price {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 22px;
+      font-weight: 900;
+    }
+    &__bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &__btn {
+      box-shadow: none;
+      background: #ffa650;
+      width: 200px;
+      padding: 14px 20px;
+    }
+    &__btn:hover {
+      background: #ff7c21;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .product__img {
+      height: auto;
+    }
+  }
+  
+  @media (min-width: 993px) and (max-width: 1200px) {
+    .product__size {
+      padding: 13px 25px;
+    }
+  }
+  
+  @media (max-width: 370px) {
+    .product__size {
+      padding: 13px 25px;
+    }
+  }
+  
+  @media (max-width: 370px) {
+    .product__price {
+      font-size: 18px;
+    }
+  }
+  
+
+  .product {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    h3{
+        text-align: center;
+    }
+    &__img {
+      display: block;
+      margin: 0 auto 15px;
+      width: 340px;
+      height: 207px;
+    }
+    &__title {
+      margin: 0 0 10px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      font-size: 22px;
+    }
+    &__description {
+      margin: 0;
+      color: #9f9f9f;
+    }
+    &__content {
+      margin-bottom: 25px;
+      flex-grow: 1;
+    }
+    &__sizes {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+      border-radius: 21px;
+      overflow: hidden;
+      box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.05);
+    }
+    &__size {
+      border: 0;
+      background-color: transparent;
+      cursor: pointer;
+      display: inline-block;
+      text-align: center;
+      color: #e6e6e6;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      padding: 13px 33px;
+      border-radius: 21px;
+    }
+    &__size.active {
+      color: #1f1f1f;
+      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
+    }
+    &__price {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 22px;
+      font-weight: 900;
+    }
+    &__bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &__btn {
+      box-shadow: none;
+      background: #ffa650;
+      width: 200px;
+      padding: 14px 20px;
+    }
+    &__btn:hover {
+      background: #ff7c21;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .product__img {
+      height: auto;
+    }
+  }
+  
+  @media (min-width: 993px) and (max-width: 1200px) {
+    .product__size {
+      padding: 13px 25px;
+    }
+  }
+  
+  @media (max-width: 370px) {
+    .product__size {
+      padding: 13px 25px;
+    }
+  }
+  
+  @media (max-width: 370px) {
+    .product__price {
+      font-size: 18px;
+    }
+  }
+  
+  
+  
+  
+  
